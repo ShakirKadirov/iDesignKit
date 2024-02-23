@@ -23,6 +23,11 @@ class HomeViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UILabel())
+    
+    lazy var settingsButton: UIButton = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        return $0
+    }(UIButton())
 
     override func viewDidLoad() {
         super.viewDidLoad()
