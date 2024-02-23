@@ -13,6 +13,16 @@ class HomeViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UIImageView())
+    
+    lazy var firstNameLabel: UILabel = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        return $0
+    }(UILabel())
+    
+    lazy var lastNameLabel: UILabel = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        return $0
+    }(UILabel())
 
     override func viewDidLoad() {
         super.viewDidLoad()
