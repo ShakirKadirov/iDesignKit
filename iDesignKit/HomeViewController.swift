@@ -8,12 +8,14 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    lazy var profileImageView: UIImageView = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        return $0
+    }(UIImageView())
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
